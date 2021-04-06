@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 
-df=pd.read_csv('chorizon.csv')
+df=pd.read_csv('mineral.csv')
 df=df[['ID','XCOO','YCOO','Ag']]
 df=df[df.ID<800]
 
